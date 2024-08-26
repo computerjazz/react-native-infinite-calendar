@@ -5,7 +5,7 @@ import React, {
   useImperativeHandle,
   useCallback,
 } from "react";
-import { isEqual } from "lodash";
+import isEqual from "lodash/isEqual";
 import InfinitePager, {
   InfinitePagerImperativeApi,
   PageInterpolatorParams,
